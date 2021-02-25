@@ -118,7 +118,7 @@ header {
 .mail-phone {
   margin-bottom: 0px;
   margin-top: 1px;
-  /* justify-content: center; */
+  justify-content: center;
   display: inline-flex;
 }
 
@@ -316,6 +316,29 @@ main {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+}
+
+.item {
+  position: relative;
+}
+
+.work-thumb {
+  position: absolute;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+  height: 20.5%;
+  bottom: 0;
+  right: 0;
+}
+
+.work-thumb-text {
+  color: var(--white-text);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 27px 82px 27px 81px;
 }
 
 /* Our Team Styles */
