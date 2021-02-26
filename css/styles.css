@@ -624,6 +624,10 @@ footer .item + .item {
   margin-top: -30px;
 }
 
+/* .project-photo {
+  position: relative;
+} */
+
 .project li {
   position: relative;
 }
@@ -636,7 +640,7 @@ footer .item + .item {
   opacity: 0;
 }
 
-.project-thumb-fon:hover {
+.project .item:hover .project-thumb-fon {
   opacity: 1;
 }
 
