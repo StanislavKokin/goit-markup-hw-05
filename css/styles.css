@@ -624,6 +624,32 @@ footer .item + .item {
   margin-top: -30px;
 }
 
+.project li {
+  position: relative;
+}
+
+.project-thumb-fon {
+  position: absolute;
+  background-color: rgba(33, 150, 243, 0.9);
+  top: 0%;
+  left: 0%;
+  opacity: 0;
+}
+
+.project-thumb-fon:hover {
+  opacity: 1;
+}
+
+.project-thumb-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--white-text);
+  text-align: center;
+  margin: 63px 24px;
+}
+
 .project .item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
@@ -632,6 +658,7 @@ footer .item + .item {
 
 .project-link {
   display: block;
+  position: relative;
 }
 
 .project-content {
