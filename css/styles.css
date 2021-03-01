@@ -673,6 +673,11 @@ footer .item + .item {
   transform: translateY(0);
 }
 
+.project-thumb {
+  overflow: hidden;
+  position: relative;
+}
+
 .project-thumb-text {
   font-weight: 400;
   font-size: 18px;
@@ -780,4 +785,9 @@ footer .item + .item {
 .btn-modal:hover .x-modal,
 .btn-modal:focus .x-modal {
   fill: var(--accent-color);
+}
+
+:hover,
+:focus {
+  transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
