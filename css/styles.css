@@ -745,9 +745,13 @@ footer .item + .item {
   pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.7);
+}
+
 .modal {
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
   top: 50%;
   left: 50%;
   width: 528px;
